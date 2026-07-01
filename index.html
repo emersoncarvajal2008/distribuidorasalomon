@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DistribuidoraSalomon</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f5efe5;
+            color:#222;
+        }
+
+        header{
+            background:white;
+            padding:20px 10%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            box-shadow:0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .logo{
+            font-size:30px;
+            font-weight:bold;
+            color:#b8965f;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:#222;
+            margin-left:20px;
+            font-weight:bold;
+        }
+
+        .hero{
+            padding:100px 10%;
+            text-align:center;
+        }
+
+        .hero h1{
+            font-size:50px;
+            margin-bottom:20px;
+        }
+
+        .hero p{
+            font-size:20px;
+            margin-bottom:30px;
+        }
+
+        .boton{
+            background:#b8965f;
+            color:white;
+            padding:15px 30px;
+            text-decoration:none;
+            border-radius:8px;
+            font-size:18px;
+        }
+
+        .productos{
+            padding:60px 10%;
+        }
+
+        .productos h2{
+            text-align:center;
+            margin-bottom:40px;
+        }
+
+        .grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+            gap:20px;
+        }
+
+        .card{
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            text-align:center;
+            box-shadow:0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        footer{
+            background:#111;
+            color:white;
+            text-align:center;
+            padding:30px;
+            margin-top:50px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">DistribuidoraSalomon</div>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Productos</a>
+        <a href="#">Contacto</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Herramientas de Calidad</h1>
+
+    <p>
+        Distribuimos herramientas al por mayor y al detal
+        para profesionales y empresas.
+    </p>
+
+    <a class="boton" href="#">
+        Contáctanos por WhatsApp
+    </a>
+</section>
+
+<section class="productos">
+
+    <h2>Nuestros Productos</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Taladros</h3>
+            <p>Herramientas profesionales.</p>
+        </div>
+
+        <div class="card">
+            <h3>Pulidoras</h3>
+            <p>Equipos de alto rendimiento.</p>
+        </div>
+
+        <div class="card">
+            <h3>Discos</h3>
+            <p>Para corte y desbaste.</p>
+        </div>
+
+        <div class="card">
+            <h3>Copas</h3>
+            <p>Accesorios automotrices.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 DistribuidoraSalomon
+</footer>
+
+</body>
+</html>
